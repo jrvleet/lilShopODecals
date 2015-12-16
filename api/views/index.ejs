@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<body class="container">
+
+	<h1>Decal Shop</h1>
+
+
+
+
+	<div class="right_column">
+		<p>Cart</p>
+		<p>Contact</p>
+		<p>About</p>
+	</div>
+
+	<div class="transform">
+		<table>
+		  <tbody>
+				<tr>
+				  <td class="decal" data-toggle="modal" data-target="#heartModal"><img src="../images/heart_2.png"></td>
+				</tr>
+				<br>
+				<tr>
+				  <td class="decal" data-toggle="modal" data-target="#antlersModal"><img src="../images/antlers_2.png"></a></td>
+				  <td class="decal"><a href=""><img src="../images/gunshoe_2.png"></a></td>
+				</tr>
+				<br>
+				<tr>
+				  <td class="decal" data-toggle="modal" data-target="#circleModal"><img src="../images/circle_2.png"></a></td>
+				  <td class="decal"><a href=""><img src="../images/AZ_2.png"></a></td>
+				  <td class="decal"><img src="../images/MST3K_2.png"></a></td>
+				</tr>
+				<br>
+				<tr>
+					<td class="decal"><a href=""><img src="../images/yaskween_2.png"></a></td>
+					<td class="decal"><a href=""><img src="../images/wings_2.png"></a></td>
+					<td class="decal"><a href=""><img src="../images/trillion.png"></a></td>
+					<td class="decal"><a href=""><img src="../images/femmeCactus.png"></a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+<!-- Heart Decal Modal -->
+		<div class="modal fade" tabindex="-1" role="dialog" id="heartModal">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">Heart Decal</h4>
+		      </div>
+	        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+	        <input type="hidden" name="cmd" value="_s-xclick">
+	        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+	        ">
+	        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+	        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+	        </form>
+
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+<!-- Antlers Decal Modal -->
+			<div class="modal fade" tabindex="-1" role="dialog" id="antlersModal">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title">Antlers Decal</h4>
+			      </div>
+		        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+		        <input type="hidden" name="cmd" value="_s-xclick">
+		        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+		        ">
+		        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+		        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		        </form>
+
+			    </div><!-- /.modal-content -->
+			  </div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+
+<!-- Circle Gem Decal -->
+				<div class="modal fade" tabindex="-1" role="dialog" id="circleModal">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title">Circle Decal</h4>
+				      </div>
+			        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			        <input type="hidden" name="cmd" value="_s-xclick">
+			        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+			        ">
+			        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			        </form>
+
+				    </div><!-- /.modal-content -->
+				  </div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+
+	<script src='javascripts/app.js'></script>
+</body>
+</html>

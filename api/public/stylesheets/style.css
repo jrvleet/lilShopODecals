@@ -1,0 +1,51 @@
+h1 {
+	color: #ecf0f1;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('../images/background.png');
+  background-color: #332937;
+  color: #ecf0f1;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.decal {
+  background-image: url('../images/square_2.png');
+}
+
+.decal img {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.decal:hover img {
+  opacity: 1;
+  transition: 0.25s;
+}
+
+.right_column {
+	color: #ecf0f1;
+}
+
+.transform {
+
+	margin-left: 550px;
+	-webkit-transform-origin: -40px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+@media (max-width: 900px) {
+	.transform {
+	margin-left: 550px;	
+	-webkit-transform-origin: -60px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+}
+
