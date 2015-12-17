@@ -1,4 +1,31 @@
+/*@font-face {
+	font-family: "PoiretOne-Regular";
+	src: url('../assets/PoiretOne-Regular.ttf');
+}*/
+
+/*@font-face {
+	font-family: "Little days";
+	src: url('../assets/Little days.ttf');
+}*/
+
+@font-face {
+	font-family: "Montserrat-Regular";
+	src: url('../assets/Montserrat-Regular.ttf');
+}
+
+/*@font-face {
+	font-family: "PersonalUse_Monoment";
+	src: url('../assets/PersonalUse_Monoment.ttf');
+}*/
+/*
+@font-face {
+	font-family: "Sabor Limited Free Version";
+	src: url('../assets/Sabor Limited Free Version.ttf');
+}*/
+
 h1 {
+	font-size: 50px;
+	font-family:"Montserrat-Regular";
 	color: #ecf0f1;
 }
 
